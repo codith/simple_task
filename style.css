@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    gap: 1rem;
+    margin-left: 1rem;
+    margin-top: 2rem;
+    font-family: sans-serif;
+}
+
+.img_1, .img_2, .img_3 {
+    width: 400px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.box_1, .box_2, .box_3 {
+    position: relative;
+}
+
+.box_1_text {
+    position: absolute;
+    bottom: 10%;
+    left: 5%;
+    color: white;
+}
+
+.box_2_text {
+    position: absolute;
+    bottom: 15%;
+    left: 5%;
+}
+
+.box_3_text {
+    position: absolute;
+    bottom: 3%;
+    left: 5%;
+    color: white;
+    z-index: 1;
+}
